@@ -1,0 +1,2 @@
+上传文件的浏览器兼容问题：
+由于在firefox,chrome,saferi浏览器下无法获得上传文件的绝对路径，所以测试在firefox，chrome,saferi下测试时，请选择本文件夹下images/ads里面的图片（在ie浏览器下可以获取绝对路径，即可选择您的电脑中任意图片上传）

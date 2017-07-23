@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户模板设计</title>
+<link rel="stylesheet" href="../css/design.css" type="text/css">
+</head>
+<body>
+<div id="head"></div>
+<div id="content">
+<div id="mubanchoose" class="contentbox">
+<div id="mubanchooseWord">模板</div>
+<input type="button" value="+">
+</div>
+<div id="main" class="contentbox">
+<div id="mainDesign"><input type="file" id="mainDesignUpload" style="visibility:hidden"></div>
+<div id="choose">
+<ul>
+<li>文字</li>
+<li>图片</li>
+<li>扫二维码下载APP版</li>
+<li>操作常见问题</li>
+<li>随机填充模板</li>
+<li>保存设计</li>
+</ul>
+</div>
+</div>
+<div id="decoration" class="contentbox">
+<div id="operation"></div>
+<div id="edit" contenteditable></div>
+<input type="button" value="添加文字" id="addWords">
+<div id="uploadImgs" style="display:none">
+	<input type="file" id="upload"/>
+</div>
+</div>
+</div>
+
+<script src="../js/ajax.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/managerDesign.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/design.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+margin:0;
+padding:0;
+}
+#head{
+width:100%;
+height:70px;
+}
+#content{
+position:absolute;
+width:800px;
+height:500px;
+border:1px solid gray;
+overflow:auto;
+
+}
+#contentList{
+width:100%;
+height:30px;
+margin:0;
+padding:0;
+list-style:none;
+}
+#contentList li{
+float:left;
+width:100px;
+height:20px;
+padding:5px;
+background-color:#c82828;
+color:white;
+font-size:14px;
+border-left:1px solid white;
+text-align:center;
+line-height:20px;
+}
+#contentList li:hover{
+opacity:0.6;
+filter:Alpha(opacity=60);
+}
+.contentbox{
+position:absolute;
+width:100%;
+height:460px;
+}
+#statistics,#insert{
+display:none;
+}
+.contentbox input[type="button"]{
+border:none;
+padding:3px;
+margin:5px;
+background-color:#c82828;
+color:white;
+}
+#searchText{
+width:200px;
+height:30px;
+}
+#tbl{
+border:1px solid gray;
+border-collapse:collapse;
+margin:20px;
+
+}
+#tbl td{
+padding:10px;
+border:thin solid gray;
+}
+.alert,.changeAlert{
+position:absolute;
+left:0;
+top:0;
+background-color:#dcdcdc;
+opacity:0.7;
+filter:Alpha(opacity=70);
+}
+.changeAlert{
+opacity:1;
+filter:Alpha(opacity=100);
+}
+.alertInner{
+position:absolute;
+background-color:#FFFFFF;
+width:25%;
+height:25%;
+left:37%;
+top:20%;
+opacity:1;
+filter:Alpha(opacity=100);
+}
+.changeInner{
+position:absolute;
+background-color:#FFFFFF;
+width:50%;
+height:50%;
+left:25%;
+top:10%;
+opacity:1;
+filter:Alpha(opacity=100);
+}
+.alertInner .innerText{
+position:absolute;
+width:50%;
+height:50%;
+left:25%;
+top:25%;
+}
+.changeInner .innerText{
+position:absolute;
+width:100%;
+height:90%;
+}
+.innerText input[type="button"]{
+position:absolute;
+bottom:7%;
+background-color:#c82828;
+color:white;
+border:none;
+padding:5px;
+margin:10px;
+}
+.innerText input[type="text"]{
+width:250px;
+height:25px;
+padding:5px;
+margin:20px;
+}
+.changeInner .alertForSure{
+left:41%;
+}
+.changeInner .alertForCancel{
+left:48%;
+}
+.alertInner .alertForSure{
+left:25%;
+}
+.alertInner .alertForCancel{
+left:50%;
+}
+
+.alertText{
+padding:15px;
+position:absolute;
+left:15%;
+top:15%;
+}
+.alertHeader{
+width:100%;
+height:15%;
+background-color:#c82828;
+}
+#insert input[type="file"]{
+display:none;
+}

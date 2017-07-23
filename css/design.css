@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+}
+#head{
+width:100%;
+height:60px;
+background-color:#373f42;
+border:1px solid;
+}
+#content{
+width:100%;
+background-color:#f2f5f6;
+}
+.contentbox{
+float:left;
+}
+#mubanchoose,#managerOperation{
+position:relative;
+width:15%;
+height:100%;
+border:thin solid;
+border-right:none;
+overflow:auto;
+}
+#mubanchooseWord{
+	text-align:center;
+	line-height:20px;
+}
+#main{
+width:65%;
+height:100%;
+border:thin solid;
+border-right:none;
+}
+#decoration{
+width:19%;
+height:100%;
+border:thin solid;
+
+}
+#operation{
+width:100%;
+height:50px;
+margin:10px;
+}
+#operation span{
+padding-right:5px;
+line-height:30px;
+}
+#edit{
+width:90%;
+height:150px;
+border:thin solid gray;
+margin:2%;
+padding:3%;
+overflow:hidden;
+}
+#operation input{
+margin:3px;
+border:thin solid white;
+}
+#operation input:hover{
+border:thin solid #666666;
+}
+#mainDesign,#preview{
+width:90%;
+height:100%;
+float:left;
+}
+#choose{
+width:8%;
+height:100%;
+float:right;
+}
+#choose ul{
+list-style:none;
+}
+#choose ul li{
+margin-top:20px;
+padding:2px;
+text-align:center;
+}
+#choose ul li:hover{
+background-color:#838383;
+color:white;
+}
+
+#mubanchoose input,#managerOperation input[id="save"]{
+position:fixed;
+left:0;
+bottom:0;
+width:15%;
+height:50px;
+line-height:30px;
+text-align:center;
+color:white;
+padding:5px;
+
+border:none;
+background-color:#373f42;
+}
+#mubanchoose input{
+	font-size:36px;
+}
+.mubanBox{
+	position:absolute;
+	background-color: gray;
+}
+#mainDesign .newMuban .mubanBox:hover{
+	border:1px solid black;
+}
+.newMuban{
+	position:relative;
+	border:1px solid gray;
+}
+#addWords{
+	float:right;
+}
+#uploadImgs{
+	width:100%;
+	height:100%;
+	margin:5px;
+	overflow:scroll;
+}
+#uploadImgs img{
+	width:150px;
+	height:150px;
+	margin:5px;
+
+}
+.words{
+	position:absolute;
+	width:200px;
+	height:40px;
+	border:1px solid;
+	line-height:40px;
+	border-radius:5px;
+}
+.words:hover{
+	cursor:move;
+}
+.words .deleteDiv{
+	text-align:center;
+	border-radius:5px;
+	color:#373f42;
+}
+#muban{
+	width:97%;
+	height:97%;
+}
